@@ -1,0 +1,3 @@
+include 'core', 'util'
+project(':core').name = 'test-gradle-eclipse-core'
+project(':util').name = 'test-gradle-eclipse-util'
