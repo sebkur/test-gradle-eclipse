@@ -13,12 +13,6 @@ subprojects {
     apply plugin: 'maven-publish'
 
     repositories {
-        maven {
-            url 'https://mvn.topobyte.de'
-        }
-        maven {
-            url 'https://mvn.slimjars.com'
-        }
         mavenCentral()
     }
 

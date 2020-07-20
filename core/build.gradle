@@ -1,7 +1,3 @@
-if (project.hasProperty("topobyte")) {
-    apply from: 'file:///' + System.getProperty("user.home") \
-        + '/.gradle/topobyte.gradle'
-}
-
 dependencies {
+    testImplementation 'junit:junit:4.13'
 }
